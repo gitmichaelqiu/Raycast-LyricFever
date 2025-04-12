@@ -1,3 +1,3 @@
 # LyricFever
 
-Control LyricFever from Raycast.
+Control [LyricFever](https://github.com/aviwad/LyricFever) from Raycast.
