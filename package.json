@@ -15,6 +15,12 @@
       "title": "Toggle Karaoke",
       "description": "",
       "mode": "no-view"
+    },
+    {
+      "name": "toggle-song-details-in-menubar",
+      "title": "Toggle Song Details in Menubar",
+      "description": "",
+      "mode": "no-view"
     }
   ],
   "dependencies": {
