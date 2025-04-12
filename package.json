@@ -1,8 +1,8 @@
 {
   "$schema": "https://www.raycast.com/schemas/extension.json",
-  "name": "lyricfever",
-  "title": "LyricFever",
-  "description": "Control LyricFever from Raycast.",
+  "name": "lyric-fever-control",
+  "title": "Lyric Fever Control",
+  "description": "Control Lyric Fever from Raycast.",
   "icon": "extension-icon.png",
   "author": "michael_qiu",
   "categories": [
@@ -13,7 +13,7 @@
     {
       "name": "toggle-karaoke",
       "title": "Toggle Karaoke",
-      "description": "",
+      "description": "Toggle Karaoke Mode",
       "mode": "no-view"
     }
   ],
