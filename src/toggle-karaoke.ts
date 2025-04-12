@@ -25,14 +25,14 @@ export default async () => {
                 if (error) {
                     showToast({
                         style: Toast.Style.Failure,
-                        title: "Failed to toggle Karaoke mode",
+                        title: "Failed to toggle Karaoke Mode",
                         message: stderr || error.message,
                     });
                     reject(stderr || error.message);
                 } else {
                     showToast({
                         style: Toast.Style.Success,
-                        title: `Karaoke mode ${newState ? "enabled" : "disabled"}`,
+                        title: `Karaoke Mode ${newState ? "enabled" : "disabled"}`,
                     });
                     resolve(stdout);
                 }
@@ -41,7 +41,7 @@ export default async () => {
     } catch (error) {
         showToast({
             style: Toast.Style.Failure,
-            title: "Error toggling Karaoke mode",
+            title: "Error toggling Karaoke Mode",
             message: error.message,
         });
     }
