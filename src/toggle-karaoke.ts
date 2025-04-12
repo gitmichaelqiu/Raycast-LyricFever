@@ -2,8 +2,8 @@ import { exec } from "child_process";
 import { showToast, Toast } from "@raycast/api";
 
 async function getKaraokeState(): Promise<boolean> {
-    return new Promise((resolve, reject) => {
-        exec("defaults read com.aviwadhwa.SpotifyLyricsInMenubar karaoke", (error, stdout, stderr) => {
+    return new Promise((resolve) => {
+        exec("defaults read com.aviwadhwa.SpotifyLyricsInMenubar karaoke", (error, stdout) => {
             if (error) {
                 // If the key doesn't exist, assume it's false
                 resolve(false);
